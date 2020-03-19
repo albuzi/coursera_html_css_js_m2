@@ -1,3 +1,68 @@
 h1 {
-text-align: center 
+text-align: center;
+}
+
+* {
+	font-family: cursive;
+	box-sizing: border-box;
+}
+
+h3{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: solid; 
+	border-width: 1px; 
+	border-color:black;
+	margin: 0px;
+}
+
+p{
+	float:left;
+	background-color: gray;
+	padding: 10px;
+	padding-top: 35px;
+	margin: 10px;
+	border: solid; 
+	border-width: 1px; 
+	border-color:black;
+}
+
+div > div {
+	position: relative;
+	float: left;
+}
+
+h3.pink {
+	background-color: pink;
+}
+
+h3.red {
+	background-color: red;  
+	color: white;
+}
+
+h3.yellow {
+	background-color: yellow;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4{
+		width: 33%;	
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12{
+		width: 100%;
+	}
 }
